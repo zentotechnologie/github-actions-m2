@@ -19,7 +19,7 @@ inputs:
     required: false
 runs:
   using: 'docker'
-  image: 'docker://zento/magento-coding-standard-action:8.2-latest'
+  image: 'docker://ratoui/magento-coding-standard-action:8.3-latest'
 branding:
   icon: 'code'
   color: 'green'
