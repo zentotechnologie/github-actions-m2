@@ -11,6 +11,12 @@ inputs:
   phpcs_severity:
     description: 'Which severity to check for. Default: "8"'
     required: false
+  phpcs_extensions:
+    description: 'What file extension PHPCS should check. Default all'
+    required: false
+  phpcs_ignore:
+    description: 'What folder PHPCS should ignore. Default none'
+    required: false
 runs:
   using: 'docker'
   image: 'docker://extdn/magento-coding-standard-action:8.3-latest'
